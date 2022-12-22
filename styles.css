@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    background-color: #181D31;
+    color: #E6DDC4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin: 10px;
+}
+
+.counter {
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#increment-btn {
+    background-color: #89676D;
+    border: none;
+}
+#save-btn {
+    color: #181D31;
+    background-color: #678983;
+    border: none;
+    padding: 10px 49px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E6DDC4;
+    font-size: larger;
+    font-weight: bold;
+}
+.small-header {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 10px 20px;
+}

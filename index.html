@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>People Counter</title>
 </head>
 <body>
-    <h1>Counter</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <br>
-    <button id="save-btn" onclick="save()">SAVE</button>
+    <div class="landing">
 
-    <p id="save-el">Previous Entries: </p>
+        <div class="header">
+            <h1>People Entered:</h1>
+        </div>
+        <div class="counter">
+            <h1 id="count-el">0</h1>
+        </div>
+        
+        <div class="buttons">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <br>
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+    
+        <div class="small-header">
+            <p id="save-el">Previous Entries: </p>
+        </div>
+
+    </div>
 
     <script src="app.js"></script>
 </body>
