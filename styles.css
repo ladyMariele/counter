@@ -54,5 +54,17 @@ button {
 .small-header {
     font-family: 'Courier New', Courier, monospace;
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px 40px;
+}
+
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 1vmin;
+}
+
+a {
+    color: #89676D;
+    font-weight: bolder;
+    font-size:medium;
 }
